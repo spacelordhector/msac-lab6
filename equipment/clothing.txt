@@ -1,0 +1,7 @@
+pants
+shirt
+underwear
+socks
+sweater
+hat
+shoes
