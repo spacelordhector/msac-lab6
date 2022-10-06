@@ -1,3 +1,7 @@
 Refrigerator
 Washer/Dryer
 Heater
+
+Air Conditioner
+Stove
+Vacuume
