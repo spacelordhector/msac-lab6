@@ -1,42 +1,48 @@
 # Exercise 6 - Committing a change (full cycle)
 
-1. Look at git status and ensure you have a clean working directory
+1.  Look at git status and ensure you have a clean working directory
 
         git status
 
-2. Open your `fruits.txt` file  in VS Code, your favorite code editor
+2.  Open your `fruits.txt` file in VS Code, your favorite code editor
 
-3. Add some lines to the file
+3.  Add some lines to the file
 
         apple
         banana
         tomato
 
-4. Save and exit the editor
+4.  Save and exit the editor
 
-5. Look at git status
+5.  Look at git status
 
         git status
 
-6. Add the file to the index
+6.  Add the file to the index
 
         git add fruits.txt
 
-7. Check status
+7.  Check status
 
         git status
 
-8. Commit the changes (short commit message included on command line)
+8.  Commit the changes (short commit message included on command line)
 
         git commit -m "Added more fruit to the list"
 
-9. Check status
+9.  Check status
 
         git status
 
 10. Which of the steps could be omitted?
 
+Git status could be ommited.
+
 11. Why might it be a bad idea to omit them?
+
+This would be a bad idea because what if you have a file or something
+that you did not want to have commited. It is always safe to check what
+you have staged before commiting.
 
 12. Repeat the above steps to add a new file with the name `vegetables.txt`
 
